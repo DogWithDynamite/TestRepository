@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Pet the Puppy!</title>
+    <link rel="stylesheet" href="../Brana_Final/styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+    <h1 class="game-title">Pet the Puppy!</h1>
+    <div class="game-container">
+        <div class="top-bar">
+            <div class="mute-container">
+                <button id="muteButton"><i class="fas fa-volume-up"></i></button>
+            </div>
+            <div id="petCounter">Pets: 0</div>
+        </div>
+
+        <div class="name-container">
+            <label for="dogName">Name: </label>
+            <input type="text" id="dogName" placeholder="e.g., Biscuit" />
+        </div>
+
+        <div id="nameContainer"></div>
+
+        <div class="dog">
+            <img id="dogImage" src="../Brana_Final/assets/puppy_sad.png" alt="A cute puppy">
+        </div>
+
+        <div class="pet-button">
+            <button id="petButton">Pet</button>
+        </div>
+    </div>
+
+    <div class="instructions">
+        <h2>How to Play</h2>
+        <ul>
+            <li>Click the "Pet" button to pet the puppy!</li>
+            <li>Keep petting until the puppy is happy.</li>
+            <li>You can name your puppy in the box above!</li>
+        </ul>
+    </div>
+
+    <audio id="scratchSound" src="../Brana_Final/sounds/scratch.mp3"></audio>
+    <audio id="barkSound" src="../Brana_Final/sounds/barking.mp3"></audio>
+    <audio id="backgroundMusic" src="../Brana_Final/sounds/music.mp3" loop></audio>
+    <script src="../Brana_Final/scripts/script.js"></script>
+</body>
+</html>

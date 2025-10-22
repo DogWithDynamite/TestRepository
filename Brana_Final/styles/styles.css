@@ -1,0 +1,122 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 18px;
+    text-align: center;
+    background-color: #cce7ff;
+}
+
+.game-title {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+    color: #020f5c;
+}
+
+.game-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+canvas {
+    background-color: white;
+    border: 2px solid black;
+}
+
+#petCounter {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Press Start 2P', cursive;
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #2848bd;
+}
+
+#petButton {
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    padding: 20px 35px;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+    background-color: #2848bd;
+    color: white;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.mute-container {
+    margin-left: auto; 
+    padding-left: 350px; 
+}
+
+#muteButton {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 19px;
+    background-color: #2848bd;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+    transition: background-color 0.2s ease;
+}
+
+.name-container {
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 14px;
+    color: #2848bd;
+}
+
+#dogName {
+    padding: 6px 10px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 13px;
+    border: 3px solid #2848bd;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+#nameContainer {
+    color: #2848bd;
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+
+.instructions {
+    margin: 16px auto;
+    padding: 16px;
+    max-width: 600px;
+    background-color: #fdf6e3;
+    border: 2.8px dashed #da8c3f;
+    border-radius: 12px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+    .instructions h2 {
+        text-align: center;
+        color: #da8c3f;
+    }
+
+    .instructions li {
+        margin: 8px 0;
+        font-size: 14px;
+        color: #4b2e1e;
+    }
